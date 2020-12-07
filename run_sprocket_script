@@ -3,5 +3,5 @@
 python3 initialize.py -1 SF1 TF1 16000 \
 && python3 initialize.py -2 SF1 TF1 16000 \
 && python3 initialize.py -3 SF1 TF1 16000 \
-&& python3 run_sprocket.py -1 -2 -3 -4 -5 SF1 TF1 16000 \
+&& python3 run_sprocket.py -1 -2 -3 -4 -5 SF1 TF1 \
 && python3 run_f0_transformation.py SF1 TF1
