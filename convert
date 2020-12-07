@@ -1,0 +1,5 @@
+#! /usr/bin/env sh
+(
+    cd /Users/wangkuan/Documents/VoiceConvert/;
+    docker run --mount type=bind,source=/Users/wangkuan/Documents/VoiceConvert/data,target=/sprocket/example/data --ulimit='stack=-1:-1' $1;
+)
